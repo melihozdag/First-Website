@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+/*CSS NAV BAR BAŞLANGICI*/
+li, a, button {
+    font-family: "Montserrar", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.nav_links li a:hover{          /*imleci getirdikten sonra linklerin rengi*/
+    color: #59bec5
+}
+
+button{         /*buton rengi ve ayarları*/
+    padding: 9px 25px;  
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{           /*imleci getirdikten sonra buton rengi*/
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+/* CSS NAV BAR SONU */
+#first{
+    background-image: url(/Images/main-foto.jpeg); 
+    padding-left: 20%; 
+    padding-bottom: 35%; 
+    background-position: center; 
+    background-size: cover;
+}
+#first h3{
+    font-size: 50px;
+}
+
+#meldra{
+    font-size: 100px;
+    padding-top: 4%;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.about-page{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.heading{
+    font-size: 31px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: black;
+}
+.content{
+    display: flex;
+    font-size: 30px;
+}
+.contentbox{
+    padding-right: 30px;
+}
+.img1{
+    margin-right: 40px;
+}
+
+.social {
+    background: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.heading_white {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+.social .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social .content .social-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    padding: 40px 20px;
+    background: rgb(54, 63, 63);
+    color: #fff;
+    width: 290px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social .content .social-box:hover {
+    background: #2196f3;
+}
+
+.my-skills-heading{
+    font-family: 'Rommetto One' cursive;
+    font-size: 31px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: black;
+}
+
+.my-skills{
+    background-color: #ffffff;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills-heading p{
+    font-size: 30px;
+}
+
+.skills{
+  text-align: right;
+  padding: 20px;
+  color: white;
+}
+
+.html{
+    width: 19%; 
+    background-color: #a2d4d8;
+}
+.css{
+    width: 15%; 
+    background-color: #a2d4d8;
+}
+.js{
+    width: 2%; 
+    background-color: #a2d4d8;
+}
+.php{
+    width: 2%; 
+    background-color: #a2d4d8;
+}
+
+.python{
+    width: 58%; 
+    background-color: #a2d4d8;
+}
+
+.c{
+    width: 83%; 
+    background-color: #a2d4d8;
+}
+
+.sql{
+    width: 25%;
+    background-color: #a2d4d8;
+}
+
+.cyber{
+    width: 91%;
+    background-color: #a2d4d8;
+}
+
+
+.heading-white {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.contact {
+    background: #000;
+    padding-top: 100px;
+    
+}
+
+.formBox {
+    min-width: 40%;
+}
+
+.formBox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox form h3,
+.contactInfo h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formBox form input,
+.formBox form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+
+.formBox form textarea {
+    min-height: 200px;
+}
+
+.formBox form input::placeholder,
+.formBox form textarea::placeholder {
+    color: #999;
+}
+
+.formBox form input[type="submit"] {
+    max-width: 100px;
+    background: #ff0000;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactInfoBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfoBox .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBox .box .icon {
+    min-width: 40px;
+    padding-top: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.contactInfoBox .box .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contactInfoBox .box .text h3 {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #47cee6;
+}
+
+
+
+
+
+.top {
+    /* (A) BOTTOM RIGHT CORNER */
+    position: fixed;
+    bottom: 20px; right: 20px;
+    z-index: 999;
+  
+    /* (B) HIDDEN BY DEFAULT */
+    visibility: visible;
+    opacity: 100;
+  
+    /* (C) COSMETICS */
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  /* (D) SHOW BUTTON */
+  #backtop.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
