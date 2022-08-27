@@ -305,7 +305,7 @@ button:hover{
     opacity: 100;
     cursor: pointer;
     transition: opacity 0.3s;
-    filter: invert(36%) sepia(58%) saturate(686%) hue-rotate(317deg) brightness(93%) contrast(85%);     /*rengini değiştirmek için kullandım*/
+    filter: invert(25%) sepia(53%) saturate(1805%) hue-rotate(339deg) brightness(107%) contrast(89%);     /*rengini değiştirmek için kullandım*/
   }
   #backtop.show {
     visibility: visible;
